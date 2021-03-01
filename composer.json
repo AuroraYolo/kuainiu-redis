@@ -16,6 +16,7 @@
     }
   },
   "require": {
+    "php": ">=7.4",
     "predis/predis": "~1.1.6",
     "yiisoft/yii2": "~2.0.39"
   }
