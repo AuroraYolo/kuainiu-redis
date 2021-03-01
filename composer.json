@@ -1,0 +1,22 @@
+{
+  "name": "codingheping/redis",
+  "description": "Yii2 Redis Connection",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "he ping",
+      "email": "847050412@qq.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "KuaiNiu\\Redis\\": "src",
+      "KuaiNiu\\Redis\\Test\\": "test"
+    }
+  },
+  "require": {
+    "predis/predis": "~1.1.6",
+    "yiisoft/yii2": "~2.0.39"
+  }
+}
